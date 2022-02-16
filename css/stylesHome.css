@@ -84,8 +84,9 @@ body {
 .card__title {
     font-size: 1em;
     margin: 0 0 .3em;
-    text-align: center;
-    color: #495d76;
+    text-align: left;
+    color: #666666;
+    font-weight: bold;
 }
 
 .card__tagline {
@@ -255,6 +256,8 @@ input[type="submit"]:hover {
     background-color: #757575;
 }
 
+/* Tipo de color para tabla */
 th {
     color: #757575;
+    background-color: #fdfdfd;
 }

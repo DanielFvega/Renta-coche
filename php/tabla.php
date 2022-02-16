@@ -22,7 +22,8 @@ $query = $con->query($sql1);
 				<th>Tipo de auto</th>
 				<th>De</th>
 				<th>Hasta</th>
-				<th></th>
+				<th>Precio</th>
+				<th>Acción</th>
 			</thead>
 			<?php while ($r = $query->fetch_array()) : ?>
 				<tr>
@@ -32,6 +33,7 @@ $query = $con->query($sql1);
 					<td><?php echo $r["gama"]; ?></td>
 					<td><?php echo $r["start"]; ?></td>
 					<td><?php echo $r["end"]; ?></td>
+					<td></td>
 					<td style="width:150px;">
 						<a href="./editar.php?id=<?php echo $r["id"]; ?>" class="btn btn-sm btn-warning">Editar</a>
 						<a href="#" id="del-<?php echo $r["id"]; ?>" class="btn btn-sm btn-danger">Eliminar</a>
