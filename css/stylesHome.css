@@ -110,6 +110,11 @@ body {
     overflow: hidden;
 }
 
+h2 {
+    color: #777676;
+    font-weight: bold;
+}
+
 .content form .user-details {
     display: flex;
     flex-wrap: wrap;
@@ -248,4 +253,8 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #757575;
+}
+
+th {
+    color: #757575;
 }

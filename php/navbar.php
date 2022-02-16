@@ -19,6 +19,17 @@
         </div>
         <button type="submit" class="btn btn-default">&nbsp;<i class="glyphicon glyphicon-search"></i>&nbsp;</button>
       </form>
+      <a class="navbar-brand" href="cuenta.php"><b>Mi cuenta</b></a>
+      <a href="#" id="exit" class="navbar-brand" href="./"><b>Salir</b></a>
+      <script>
+						$("#exit").click(function(e) {
+							e.preventDefault();
+							p = confirm("¿ Estas seguro de cerrar la sesión ?");
+							if (p) {
+								window.location = "./cuenta.php";
+							}
+						});
+					</script>
     </div><!-- /.navbar-collapse -->
   </div>
 </nav>

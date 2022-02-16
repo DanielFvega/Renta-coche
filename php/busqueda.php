@@ -41,7 +41,6 @@ $query = $con->query($sql1);
 								window.location = "./php/eliminar.php?id=" + <?php echo $r["id"]; ?>;
 
 							}
-
 						});
 					</script>
 				</td>
