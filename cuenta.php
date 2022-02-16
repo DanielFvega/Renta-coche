@@ -12,7 +12,7 @@
         <div class="img-container">
             <div class="img-inner">
                 <div class="inner-skew">
-                <img src="./img/admin.png">
+                <img src="./img/user.png">
                 </div>
             </div>
         </div>

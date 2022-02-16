@@ -1,7 +1,7 @@
 <html>
 
 <head>
-  <title>Rent Car</title>
+  <title>Home</title>
   <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
   <script src="js/jquery.min.js"></script>
   <link rel="stylesheet" href="css/stylesHome.css">

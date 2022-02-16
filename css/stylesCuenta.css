@@ -13,34 +13,28 @@ body {
 }
 
 .img-container {
-    height: 230px;
-    width: 200px;
-    overflow: hidden;
-    border-radius: 0px 0px 20px 20px;
+    height: 250px;
+    width: 200px;  
     display: inline-block;
 }
 
-.img-container img {
-    transform: skew(0deg, -13deg);
-    height: 250px;
-    margin: -35px 0px 0px -70px;
+.img-container img { 
+    height: 200px;
+    margin: 0px;
 }
 
 .inner-skew {
     display: inline-block;
     border-radius: 20px;
-    overflow: hidden;
     padding: 0px;
-    transform: skew(0deg, 13deg);
+    transform: skew(0deg, 0deg);
     font-size: 0px;
-    margin: 30px 0px 0px 0px;
-    background: #c8c2c2;
+    margin: 30px 0px 0px 0px;  
     height: 250px;
     width: 200px;
 }
 
 .text-container {
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
   padding: 120px 20px 20px 20px;
   border-radius: 20px;
   background: #fff;
@@ -50,7 +44,7 @@ body {
 }
 
 .text-container h3 {
-  margin: 60px 0px 10px 0px;
+  margin: 40px 0px 10px 0px;
   color: #808080;
   font-size: 18px;
   font-weight: bold;
