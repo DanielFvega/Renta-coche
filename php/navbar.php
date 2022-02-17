@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="./"><b>RentCar</b></a>
+      <a class="navbar-brand" href="home.php"><b>RentCar</b></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -26,7 +26,7 @@
 							e.preventDefault();
 							p = confirm("¿ Estas seguro de cerrar la sesión ?");
 							if (p) {
-								window.location = "./cuenta.php";
+								window.location = "./index.php";
 							}
 						});
 					</script>

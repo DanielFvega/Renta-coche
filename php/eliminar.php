@@ -6,9 +6,9 @@ if(!empty($_GET)){
 			$sql = "DELETE FROM rent WHERE id=".$_GET["id"];
 			$query = $con->query($sql);
 			if($query!=null){
-				print "<script>alert(\"Eliminado exitosamente.\");window.location='../index.php';</script>";
+				print "<script>alert(\"Eliminado exitosamente.\");window.location='../home.php';</script>";
 			}else{
-				print "<script>alert(\"No se pudo eliminar.\");window.location='../index.php';</script>";
+				print "<script>alert(\"No se pudo eliminar.\");window.location='../home.php';</script>";
 
 			}
 }

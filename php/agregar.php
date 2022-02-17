@@ -8,9 +8,9 @@ if (!empty($_POST)) {
 			$sql = "insert into rent(name,document,email,gama,start,end,created_at) value (\"$_POST[name]\",\"$_POST[document]\",\"$_POST[email]\",\"$_POST[gama]\",\"$_POST[start]\",\"$_POST[end]\",NOW())";
 			$query = $con->query($sql);
 			if ($query != null) {
-				print "<script>alert(\"Agregado exitosamente.\");window.location='../index.php';</script>";
+				print "<script>alert(\"Agregado exitosamente.\");window.location='../home.php';</script>";
 			} else {
-				print "<script>alert(\"No se pudo agregar.\");window.location='../index.php';</script>";
+				print "<script>alert(\"No se pudo agregar.\");window.location='../home.php';</script>";
 			}
 		}
 	}

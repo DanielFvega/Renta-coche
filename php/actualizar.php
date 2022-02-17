@@ -8,9 +8,9 @@ if (!empty($_POST)) {
 			$sql = "update rent set name=\"$_POST[name]\",document=\"$_POST[document]\",email=\"$_POST[email]\",gama=\"$_POST[gama]\",start=\"$_POST[start]\",end=\"$_POST[end]\" where id=" . $_POST["id"];
 			$query = $con->query($sql);
 			if ($query != null) {
-				print "<script>alert(\"Actualizado exitosamente.\");window.location='../index.php';</script>";
+				print "<script>alert(\"Actualizado exitosamente.\");window.location='../home.php';</script>";
 			} else {
-				print "<script>alert(\"No se pudo actualizar.\");window.location='../index.php';</script>";
+				print "<script>alert(\"No se pudo actualizar.\");window.location='../home.php';</script>";
 			}
 		}
 	}

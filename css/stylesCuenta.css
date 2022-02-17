@@ -49,3 +49,8 @@ body {
   font-size: 18px;
   font-weight: bold;
 }
+
+td{
+  font-weight: bold;
+  color: rgb(87, 87, 87);
+}
